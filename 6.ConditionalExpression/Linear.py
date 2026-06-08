@@ -7,7 +7,6 @@ for num in arr:
         found = True
         break
 
-
 if found:
     print("Element Found")
 else:
