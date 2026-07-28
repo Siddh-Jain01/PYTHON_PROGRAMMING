@@ -1,15 +1,15 @@
 def StudentDetails(name,st_id,n):
-    stu = {'Name': name, 'ID': st_id}  # Creating a dictionary to store student details
+    stu = {'Name': name, 'ID': st_id}
     
-    subjects = [] # Creating list to store subjects
-    marks = []      # Creating list to store subjects marks
+    subjects = [] 
+    marks = []       
     for i in range(1,n+1):
-        # Taking one one by input from the user
+    
         subject_name = input(f"Enter {i} Subject Name :")
         subject_mark = int(input(f"Enter marks for {subject_name} :"))
         
-        subjects.append(subject_name)  # Append the subject name to the list
-        marks.append(subject_mark)      # Append the marks to the list
+        subjects.append(subject_name)  
+        marks.append(subject_mark)     
         
             
     
